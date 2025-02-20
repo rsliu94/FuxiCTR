@@ -4,6 +4,12 @@ __pycache__/
 *.pyc
 *$py.class
 
+# model
+*.model
+*.pkl
+*.parquet
+*.json
+
 # C extensions
 *.so
 

@@ -1,8 +1,8 @@
 keras_preprocessing
 pandas
 PyYAML
-scikit-learn
-numpy
+scikit-learn==1.4.2
+numpy==1.24.3
 h5py
 tqdm
 pyarrow
