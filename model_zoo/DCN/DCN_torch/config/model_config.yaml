@@ -76,7 +76,7 @@ DCN_criteo_x4_toy:
     metrics: [logloss, AUC]
     model: DCN
     model_id: DCN_base
-    model_root: ./Criteo/DCN_criteo_x4_001/
+    model_root: ./model_output/DCN_criteo_x4/
     monitor: {AUC: 1, logloss: -1}
     monitor_mode: max
     net_dropout: 0.2
@@ -110,7 +110,7 @@ DCN_criteo_x4:
     metrics: [logloss, AUC]
     model: DCN
     model_id: DCN_base
-    model_root: ./Criteo/DCN_criteo_x4_001/
+    model_root: ./model_output/DCN_criteo_x4/
     monitor: {AUC: 1, logloss: -1}
     monitor_mode: max
     net_dropout: 0.2

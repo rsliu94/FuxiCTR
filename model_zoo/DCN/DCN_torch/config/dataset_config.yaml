@@ -27,6 +27,7 @@ criteo_x4:
     test_data: ../../../data/Criteo_x4/test.csv
     train_data: ../../../data/Criteo_x4/train.csv
     valid_data: ../../../data/Criteo_x4/valid.csv
+    data_block_size: 1000000  # Process 1M rows at a time
 
 criteo_x4_toy:
     data_format: csv
@@ -49,3 +50,5 @@ criteo_x4_toy:
     test_data: ../../../data/Criteo_x4/toy/test.csv
     train_data: ../../../data/Criteo_x4/toy/train.csv
     valid_data: ../../../data/Criteo_x4/toy/valid.csv
+    data_block_size: 1000  # Process 1k rows at a time
+    streaming: true

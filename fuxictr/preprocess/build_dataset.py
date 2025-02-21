@@ -58,6 +58,7 @@ def transform_block(feature_encoder, df_block, filename):
 
 def transform(feature_encoder, ddf, filename, block_size=0):
     ddf = ddf.collect().to_pandas()
+    logging.info(f"Transforming ddf with block size {block_size}")
     if block_size > 0:
         pool = mp.Pool(mp.cpu_count() // 2)
         block_id = 0
